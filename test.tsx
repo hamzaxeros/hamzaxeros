@@ -16,6 +16,38 @@ export default function ControlledRadioButtonsGroup() {
       y:[]
     }
   })
+  
+  		// const data = visualTypes;
+
+    // let visualType = "";
+    // let visualProps = null;
+
+    // for (let d of Object.keys(data)) {
+    //   if (data[d].status === true) {
+    //     if (d === "table") {
+    //       visualType = d;
+    //     }
+    //     if (d === "graph") {
+    //       for (let d2 of Object.keys(data[d]).filter(i=>i!=='status')) {
+    //         if (data[d][d2].status === true) {
+    //           visualType = d2;
+    //           const parent2 = data[d][d2];
+    //           if(d2 === 'line') {
+    //             const p = parent2.primary.primary_y.map(i=>i.name)
+    //             const s = parent2.secondary.secondary_y.map(i=>i.name)
+    //             visualProps = {primary_y: p, secondary_y: s}
+    //           } else {
+    //             const x = parent2.x.x.map(i=>i.name)
+    //             const y = parent2.y.y.map(i=>i.name)
+    //             visualProps = {x, y}
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+
+    // console.log("VVVVVV:", visualType, visualProps)
 
   return (
     <div className="w-100 position-absolute drop-visual-selctor ">
